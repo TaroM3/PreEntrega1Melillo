@@ -1,0 +1,15 @@
+.navContainer{
+    width: 100%;
+    background-color: #9e0031;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: azure;
+}
+
+.containerCategories{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
