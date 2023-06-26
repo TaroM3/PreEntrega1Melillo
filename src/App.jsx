@@ -6,6 +6,7 @@ import { useState } from "react";
 import ModeNightIcon from "@mui/icons-material/ModeNight";
 import LightModeIcon from "@mui/icons-material/LightMode";
 import Navbar from "./components/layout/navbar/Navbar";
+import ItemListContainer from "./components/pages/itemList/ItemListContainer";
 
 function App() {
   const [isDark, setIsDark] = useState(false);
@@ -19,6 +20,7 @@ function App() {
       <div>
       <Navbar />
         {/* <Material /> */}
+        <ItemListContainer saludo={'Bienvenido'}/>
         <MaterialComponents />
 
         {/* <button onClick={changeMode}>Cambiar modo</button> */}
